@@ -13,7 +13,6 @@
      if (n == 1) return 1;
      return n + sumTo(n - 1);
  }
-
 // Решение по формуле:
 function sumTo(n) {
     return n * (n + 1) / 2;
